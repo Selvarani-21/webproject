@@ -44,7 +44,7 @@ Fit Track Hub is a full-stack gym management system designed to simplify operati
 | POST   | `/api/v1/auth/login`         | Login with email/password  |
 | GET    | `/api/v1/auth/users`         | View all users (Admin)     |
 
-### 🗓️ Member Availability Routes
+### 🗓️ Routes
 
 | Method | Route                                      | Description                                                                 |
 |--------|--------------------------------------------|-----------------------------------------------------------------------------|
@@ -80,17 +80,6 @@ Use **Postman** or **Thunder Client** to test routes. Sample request bodies are 
 - Email/OTP-based login security
 - Docker container support for deployment
 
----
-
-## 📦 Installation & Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/fit-track-hub.git
-cd fit-track-hub
-
-# Install dependencies
-npm install
 
 # Setup environment variables
 cp .env.example .env
